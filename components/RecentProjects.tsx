@@ -1,6 +1,7 @@
 import { projects } from "@/data";
 import { PinContainer } from "./ui/3d-pin";
 import { FaLocationArrow } from "react-icons/fa6";
+import Image from "next/image";
 
 function RecentProjects() {
   return (
@@ -17,10 +18,15 @@ function RecentProjects() {
           >
             <PinContainer title={link} href={link}>
               <div className="relative flex items-center justify-center sm:w-[35vw] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
-                <div className="relative w-full h-full overflow-hidden lg:rounded-full bg-[#13162d]">
-                  <img src="/bg.png" alt="bg-img" />
+                <div className="relative w-full h-full overflow-hidden bg-[#13162d]">
+                  <Image src="/bg.png" alt="bg-img" fill />
                 </div>
-                <img src={img} alt={title} className="z-10 absolute bottom-0" />
+                <Image
+                  src={img}
+                  alt={title}
+                  className="z-10 absolute bottom-0"
+                  fill
+                />
               </div>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                 {title}
