@@ -34,7 +34,7 @@ export default function Hero() {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Ahmed, a Next.js Developer based in Egypt
+            Hi, I&apos;m Ahmed, a Frontend Developer based in Egypt
           </p>
           <a href="#about">
             <MagicButton
