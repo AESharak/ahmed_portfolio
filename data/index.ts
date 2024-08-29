@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -170,32 +170,32 @@ export const companies = [
   },
 ];
 
-export const workExperience = [
+export const myLearningPaths = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "HTML, CSS, JavaScript",
+    desc: "Learning the basics of web development and building simple projects to solidify my knowledge.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "React.js library",
+    desc: "The most popular frontend library for building user interfaces. I've built several projects with it.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Next.js, Tailwind CSS",
+    desc: "Using the combination of Next.js and Tailwind CSS to build modern and responsive web applications.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Angular",
+    desc: "Learning the Angular framework to build scalable and maintainable web applications.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

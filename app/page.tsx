@@ -3,7 +3,8 @@ import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data";
-import { FaHome } from "react-icons/fa";
+import LearningPaths from "@/components/LearningPaths";
+import Approach from "@/components/Approach";
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProjects />
+        <LearningPaths />
+        <Approach />
       </div>
     </main>
   );
