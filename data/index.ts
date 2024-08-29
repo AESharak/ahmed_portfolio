@@ -205,13 +205,14 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    platform: "github",
+    link: "https://github.com/ahmedessam3270",
   },
+
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    platform: "linkedin",
+    link: "https://www.linkedin.com/in/ahmed-essam-230751115/",
   },
 ];
