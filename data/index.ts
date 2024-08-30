@@ -75,7 +75,7 @@ export const projects = [
     title: "The wild Oasis",
     des: "Explore the wonders of our fictional restaurant cabins in the heart of the earth's most beautiful landscapes.",
     img: "/p1.jpeg",
-    iconLists: ["/next.svg", "/tail.svg", "/fm.svg"],
+    iconLists: ["/next.svg", "/tail.svg"],
     link: "https://github.com/ahmedessam3270/next_the_wild_oasis",
   },
   {
@@ -83,7 +83,7 @@ export const projects = [
     title: "AhmedEstate",
     des: "A real estate website that allows users to search for properties, view property details, and contact real estate agents.",
     img: "/rs2.jpeg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg"],
     link: "https://github.com/ahmedessam3270/mern_realstate",
   },
   {
@@ -91,7 +91,7 @@ export const projects = [
     title: "FullStack e-commerce app",
     des: "A full-stack e-commerce app that allows users to browse products, add them to the cart, and purchase them.",
     img: "/aec1.jpeg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg"],
     link: "https://github.com/ahmedessam3270/MERN_e-commerce_frontend",
   },
   {
@@ -99,7 +99,7 @@ export const projects = [
     title: "Fast React Pizza co.",
     des: "A fictional website that serves pizza and allows users to order their favorite pizza.",
     img: "/frpc.jpeg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/re.svg", "/tail.svg"],
     link: "https://github.com/ahmedessam3270/fast-react-pizza-co",
   },
 ];
