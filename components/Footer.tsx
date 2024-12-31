@@ -27,7 +27,7 @@ const Footer = () => {
 
       <div className="flex flex-col md:flex-row justify-around lg:gap-36 gap-5 items-center mt-16">
         <p className="md:text-base text-sm md:font-normal font-light">
-          &copy; 2024 Ahmed Essam. All rights reserved.
+          &copy; 2025 Ahmed Essam. All rights reserved.
         </p>
         <div className="relative z-50 flex items-center md:gap-3 gap-6">
           {socialMedia.map((profile) => (
