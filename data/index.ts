@@ -147,6 +147,6 @@ export const socialMedia = [
     id: 2,
     img: "/link.svg",
     platform: "linkedin",
-    link: "https://www.linkedin.com/in/ahmed-essam-230751115/",
+    link: "https://www.linkedin.com/in/ahmed-essam-sharak/",
   },
 ];
