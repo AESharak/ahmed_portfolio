@@ -76,7 +76,7 @@ export const projects = [
     des: "Explore the wonders of our fictional restaurant cabins in the heart of the earth's most beautiful landscapes.",
     img: "/p1.jpeg",
     iconLists: ["/next.svg", "/tail.svg"],
-    link: "https://github.com/ahmedessam3270/next_the_wild_oasis",
+    link: "https://github.com/AESharak/next_the_wild_oasis",
   },
   {
     id: 2,
@@ -84,7 +84,7 @@ export const projects = [
     des: "A real estate website that allows users to search for properties, view property details, and contact real estate agents.",
     img: "/rs2.jpeg",
     iconLists: ["/re.svg", "/tail.svg"],
-    link: "https://github.com/ahmedessam3270/mern_realstate",
+    link: "https://github.com/AESharak/mern_realstate",
   },
   {
     id: 3,
@@ -92,7 +92,7 @@ export const projects = [
     des: "A full-stack e-commerce app that allows users to browse products, add them to the cart, and purchase them.",
     img: "/aec1.jpeg",
     iconLists: ["/re.svg", "/tail.svg"],
-    link: "https://github.com/ahmedessam3270/MERN_e-commerce_frontend",
+    link: "https://github.com/AESharak/MERN_e-commerce_frontend",
   },
   {
     id: 4,
@@ -100,7 +100,7 @@ export const projects = [
     des: "A fictional website that serves pizza and allows users to order their favorite pizza.",
     img: "/frpc.jpeg",
     iconLists: ["/re.svg", "/tail.svg"],
-    link: "https://github.com/ahmedessam3270/fast-react-pizza-co",
+    link: "https://github.com/AESharak/fast-react-pizza-co",
   },
 ];
 
@@ -140,7 +140,7 @@ export const socialMedia = [
     id: 1,
     img: "/git.svg",
     platform: "github",
-    link: "https://github.com/ahmedessam3270",
+    link: "https://github.com/AESharak",
   },
 
   {
