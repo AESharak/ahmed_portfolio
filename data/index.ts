@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/b1.webp",
     spareImg: "",
   },
   {
@@ -72,35 +72,51 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Book Oasis",
+    des: "Explore the great books and authors from all over the world.",
+    img: "/boasis1.webp",
+    iconLists: ["/ang.svg", "/bost.svg", "/node.svg"],
+    link: "https://github.com/AESharak/book-store-ecommerce-mean",
+  },
+  {
+    id: 2,
     title: "The wild Oasis",
     des: "Explore the wonders of our fictional restaurant cabins in the heart of the earth's most beautiful landscapes.",
-    img: "/p1.jpeg",
+    img: "/p1.webp",
     iconLists: ["/next.svg", "/tail.svg"],
     link: "https://github.com/AESharak/next_the_wild_oasis",
   },
   {
-    id: 2,
+    id: 3,
     title: "AhmedEstate",
     des: "A real estate website that allows users to search for properties, view property details, and contact real estate agents.",
-    img: "/rs2.jpeg",
-    iconLists: ["/re.svg", "/tail.svg"],
+    img: "/rs2.webp",
+    iconLists: ["/re.svg", "/tail.svg", "/node.svg"],
     link: "https://github.com/AESharak/mern_realstate",
   },
   {
-    id: 3,
+    id: 4,
     title: "FullStack e-commerce app",
     des: "A full-stack e-commerce app that allows users to browse products, add them to the cart, and purchase them.",
-    img: "/aec1.jpeg",
-    iconLists: ["/re.svg", "/tail.svg"],
+    img: "/aec1.webp",
+    iconLists: ["/re.svg", "/tail.svg", "/node.svg"],
     link: "https://github.com/AESharak/MERN_e-commerce_frontend",
   },
   {
-    id: 4,
+    id: 5,
     title: "Fast React Pizza co.",
     des: "A fictional website that serves pizza and allows users to order their favorite pizza.",
-    img: "/frpc.jpeg",
+    img: "/frpc.webp",
     iconLists: ["/re.svg", "/tail.svg"],
     link: "https://github.com/AESharak/fast-react-pizza-co",
+  },
+  {
+    id: 6,
+    title: "Brick Breaker",
+    des: "A brick breaker game built with HTML, CSS, and JavaScript.",
+    img: "/brbreaker.webp",
+    iconLists: ["/HTML5.svg", "/css.svg", "/js.svg"],
+    link: "https://github.com/AESharak/brick-breaker-js",
   },
 ];
 
@@ -124,7 +140,7 @@ export const myLearningPaths = [
     title: "Next.js, Tailwind CSS",
     desc: "Using the combination of Next.js and Tailwind CSS to build modern and responsive web applications.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/exp1.svg",
   },
   {
     id: 4,
@@ -132,6 +148,34 @@ export const myLearningPaths = [
     desc: "Learning the Angular framework to build scalable and maintainable web applications.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
+  },
+  {
+    id: 5,
+    title: "LeetCode",
+    desc: "Solving problems on LeetCode to improve my coding skills and prepare for technical interviews.",
+    className: "md:col-span-2",
+    thumbnail: "/exp3.svg",
+  },
+  {
+    id: 6,
+    title: "Node.js",
+    desc: "Learning the Node.js runtime to build scalable and maintainable web applications.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+  {
+    id: 7,
+    title: "Laravel",
+    desc: "Learning the Laravel framework to build scalable and maintainable web applications.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
+  {
+    id: 8,
+    title: "MongoDB",
+    desc: "Learning the MongoDB database to build scalable and maintainable web applications.",
+    className: "md:col-span-2",
+    thumbnail: "/exp2.svg",
   },
 ];
 
@@ -148,5 +192,11 @@ export const socialMedia = [
     img: "/link.svg",
     platform: "linkedin",
     link: "https://www.linkedin.com/in/ahmed-essam-sharak/",
+  },
+  {
+    id: 3,
+    img: "/leetcode.svg",
+    platform: "leetcode",
+    link: "https://leetcode.com/u/aesharak/",
   },
 ];
